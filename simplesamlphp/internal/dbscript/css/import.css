@@ -1,0 +1,15 @@
+/* CSS Document */
+#dev{float:left;width:50%;}
+#liv{float:right;width:50%;}
+#tabledev,#tableliv{display:none;position: relative;}
+#dboperation{width:100%;clear:both;float:left;}
+#dboperation div
+{ 
+	float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+#resultMsg, #resultMsg div{
+clear:both;
+}

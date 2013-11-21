@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule     ^simplesaml/(.*)$ /www/$1 [R=302,L,QSA]
+  </IfModule>

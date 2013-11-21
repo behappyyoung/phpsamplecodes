@@ -1,0 +1,31 @@
+#_body{
+      background:transparent;
+      
+      
+	}
+#rewards h3, .mobile-app h3{
+	color: #666;
+	font-size:18px;
+	font-family:Helvetica, sans-serif;
+	
+}
+.container{
+	width:960px;
+	top:-17px;
+	border:#F00;	
+}
+#content{
+	top:25px;
+	
+}
+
+#noAssessment h3, .round-window-bottom-left h3{
+	font-family:Helvetica, sans-serif;
+	font-size:16px;
+}
+.jqplot-table-legend{
+	font-family:Helvetica, sans-serif;
+}
+#aspnetForm{
+	height:100%;
+}

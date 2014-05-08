@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a82584b9-ad86-460b-b9b4-caddb2f7f5ef" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mailer/PHPMailer" afterPath="$PROJECT_DIR$/mailer/PHPMailer" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithm/FFT/index.php" afterPath="$PROJECT_DIR$/algorithm/FFT/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phpsamplecodes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,25 +27,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.php">
+      <file leaf-file-name="trader_ma_linear_graph.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jpgraph/trader_ma_linear_graph.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="23" selection-start="268" selection-end="268" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="405">
-              <folding>
-                <element signature="e#6#86#0" expanded="true" />
-              </folding>
+            <state line="60" column="37" selection-start="1491" selection-end="1491" vertical-scroll-proportion="3.125" vertical-offset="900" max-vertical-offset="4830">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithm/FFT/index.php">
+      <file leaf-file-name="XSS_attact.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Security/XSS_attact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="55" selection-start="911" selection-end="911" vertical-scroll-proportion="0.42296073" vertical-offset="0" max-vertical-offset="993">
-              <folding>
-                <marker date="1398466485152" expanded="false" signature="825:849" placeholder="..." />
-                <marker date="1398466485152" expanded="false" signature="1163:1187" placeholder="..." />
-              </folding>
+            <state line="25" column="0" selection-start="564" selection-end="564" vertical-scroll-proportion="0.38265306" vertical-offset="0" max-vertical-offset="980">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sampledata_rawdata.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jpgraph/sampledata_rawdata.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,6 +58,15 @@
         <entry file="file://$PROJECT_DIR$/test2.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="7" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phpinfo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpinfo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="10" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -73,14 +88,20 @@
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/test2.php" />
         <option value="$PROJECT_DIR$/algorithm/index.php" />
+        <option value="$PROJECT_DIR$/algorithm/FFT/index.php" />
+        <option value="$PROJECT_DIR$/jpgraph/sampledata_search.json" />
+        <option value="$PROJECT_DIR$/phpinfo.php" />
+        <option value="$PROJECT_DIR$/jpgraph/sampledata_rawdata.json" />
+        <option value="$PROJECT_DIR$/jpgraph/trader_ma_linear_graph.php" />
+        <option value="$PROJECT_DIR$/Security/XSS_attact.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1523" />
-    <option name="y" value="27" />
-    <option name="width" value="1613" />
+    <option name="x" value="1779" />
+    <option name="y" value="24" />
+    <option name="width" value="1508" />
     <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -90,7 +111,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -109,7 +130,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -138,6 +158,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phpsamplecodes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phpsamplecodes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpgraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phpsamplecodes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phpsamplecodes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpgraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpgraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phpsamplecodes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phpsamplecodes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="algorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -148,10 +214,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bitbucket/hapiv2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -179,7 +252,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1523" y="27" width="1613" height="1176" extended-state="0" />
+    <frame x="1779" y="24" width="1508" height="1176" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -187,7 +260,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2527122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26675788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -222,9 +295,21 @@
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="23" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="405">
-          <folding>
-            <element signature="e#6#86#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpgraph/trader_ma_linear_graph.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="37" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="4830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpgraph/sampledata_rawdata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -233,6 +318,25 @@
         <state line="9" column="7" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="285">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="23" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/FFT/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="63" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1035" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test2.php">
@@ -244,20 +348,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="23" selection-start="268" selection-end="268" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="405">
-          <folding>
-            <element signature="e#6#86#0" expanded="true" />
-          </folding>
+        <state line="18" column="23" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/FFT/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="55" selection-start="911" selection-end="911" vertical-scroll-proportion="0.42296073" vertical-offset="0" max-vertical-offset="993">
-          <folding>
-            <marker date="1398466485152" expanded="false" signature="825:849" placeholder="..." />
-            <marker date="1398466485152" expanded="false" signature="1163:1187" placeholder="..." />
-          </folding>
+        <state line="21" column="44" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1035" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="23" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/FFT/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="31" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1035" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="23" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/FFT/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="63" selection-start="748" selection-end="748" vertical-scroll-proportion="-13.875" vertical-offset="42" max-vertical-offset="1035" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bitbucket/hapiv2/dbdata/sampledata_search.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="751067" selection-start="0" selection-end="751067" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bitbucket/hapiv2/functions/sampledata_search.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="618920" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bitbucket/hapiv2/functions/sampledata_search_org.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="534314" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpgraph/sampledata_search.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="534312" selection-start="534312" selection-end="534312" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpgraph/sampledata_rawdata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpgraph/trader_ma_linear_graph.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="37" selection-start="1491" selection-end="1491" vertical-scroll-proportion="3.125" vertical-offset="900" max-vertical-offset="4830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.24169184" vertical-offset="0" max-vertical-offset="993">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Security/XSS_attact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="564" selection-end="564" vertical-scroll-proportion="0.38265306" vertical-offset="0" max-vertical-offset="980">
+          <folding />
         </state>
       </provider>
     </entry>

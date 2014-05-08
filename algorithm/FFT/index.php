@@ -26,8 +26,31 @@
 				    	$f[$i] = 0;
 				}
     			
-    			$fft = new FFT(256);
-    			
+
+
+
+            $string1 = file_get_contents('/var/www/test/string.txt');
+            $array1 = explode(',', $string1);
+
+            $size =  sizeof($array1);
+echo $size;
+            $fft = new FFT(2048);
+
+            $fft_array = $fft->fft($array1);
+
+            echo $fft->getDim();
+
+            echo "<h1 style=\"font: bold 14px verdana;\">FFT: </h1>";
+            for ($i = 0; $i < $fft->getDim(); $i++)
+                echo "<p style=\"font: normal 10px verdana;\"><b>".$i.' : '. $array1[$i]."  => </b>  (".$fft_array[$i]->getReal().", ".$fft_array[$i]->getImag().")</p>";
+
+
+            echo "<br/><h1 style=\"font: bold 14px verdana;\">FFT inverse:</h1>";
+            for ($i = 0; $i < $fft->getDim(); $i++)
+                echo "<p style=\"font: normal 10px verdana;\"><b>".$i.' : '. $array1[$i]."  => </b>  (".$fft_array[$i]->getReal().")</p>";
+
+
+            /*
     			// Calculate the FFT of the function $f
     			$w = $fft->fft($f);
     			
@@ -40,7 +63,8 @@
     			
     			echo "<br/><h1 style=\"font: bold 14px verdana;\">FFT inverse:</h1>";
     			for ($i = 0; $i < $fft->getDim(); $i++)
-    				echo "<p style=\"font: normal 10px verdana;\"><b>".$i."</b>  (".$w[$i]->getReal().")</p>";		
+    				echo "<p style=\"font: normal 10px verdana;\"><b>".$i."</b>  (".$w[$i]->getReal().")</p>";
+*/
     		?>
     </body>
 </html>

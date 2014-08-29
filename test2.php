@@ -1,13 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: young
- * Date: 3/17/14
- * Time: 3:54 PM
- */
 
 
-include('test.php');
+var_dump($_COOKIE);
 
+setcookie("test", "", time()-3600);
 
-require_once('test.php');
+var_dump($_COOKIE);
+

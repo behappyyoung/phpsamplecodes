@@ -17,3 +17,14 @@ Route::match(array('GET', 'POST'), '/', function()
     $cookie = Cookie::make('name', 'value');
     return 'Hello World'.View::make('hello').$cookie;
 });
+Route::get('welcome', 'HomeController@showWelcome');
+
+Route::get('test', function()
+{
+    return 'TEST!!!!';
+});
+
+Route::get('users', function()
+{
+    return View::make('users');
+});

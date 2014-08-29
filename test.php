@@ -12,6 +12,7 @@ setcookie('test', 'testcookoe', time()+3600);
 
 echo $_COOKIE['test'];
 
+var_dump($_COOKIE);
 /*
 $_SESSION['test'] = 'test session';
 
@@ -19,4 +20,5 @@ echo $_SESSION['test'];
 echo $_SESSION['test'];
 */
 
-session_unset();
+//session_unset();
+

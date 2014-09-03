@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a82584b9-ad86-460b-b9b4-caddb2f7f5ef" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/encryption/encrypt.php" afterPath="$PROJECT_DIR$/Concept/encryption/encrypt.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/encryption/encrypt2.php" afterPath="$PROJECT_DIR$/Concept/encryption/encrypt2.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mailer/PHPMailer" afterPath="$PROJECT_DIR$/mailer/PHPMailer" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framwork/Laravel/first/app/routes.php" afterPath="$PROJECT_DIR$/framwork/Laravel/first/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2.php" afterPath="$PROJECT_DIR$/test2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Concept/Closure.php" afterPath="$PROJECT_DIR$/Concept/Closure.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phpsamplecodes.iws" />
@@ -34,7 +30,7 @@
       <file leaf-file-name="HomeController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/framwork/Laravel/first/app/controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="493">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
@@ -70,7 +66,7 @@
       <file leaf-file-name="db.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/framwork/YII/config/db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="119" selection-end="119" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="255">
+            <state line="5" column="13" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -79,7 +75,7 @@
       <file leaf-file-name="encrypt.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Concept/encryption/encrypt.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="850">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
@@ -88,7 +84,7 @@
       <file leaf-file-name="Closure.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Concept/Closure.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.34170854" vertical-offset="0" max-vertical-offset="995">
+            <state line="9" column="119" selection-start="339" selection-end="339" vertical-scroll-proportion="0.15580449" vertical-offset="0" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
@@ -97,7 +93,7 @@
       <file leaf-file-name="test3.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
+            <state line="6" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
@@ -106,7 +102,7 @@
       <file leaf-file-name="setCookie.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Concept/setCookie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="476">
+            <state line="13" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="476">
               <folding>
                 <marker date="1409345224418" expanded="true" signature="26:203" placeholder="..." />
               </folding>
@@ -117,7 +113,7 @@
       <file leaf-file-name="removeCookie.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Concept/removeCookie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="23" selection-start="152" selection-end="171" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="442">
+            <state line="12" column="23" selection-start="152" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -158,16 +154,16 @@
         <option value="$PROJECT_DIR$/APIs/yelp/OAuth.php" />
         <option value="$PROJECT_DIR$/APIs/yelp/sample.php" />
         <option value="$PROJECT_DIR$/framwork/Laravel/first/app/routes.php" />
-        <option value="$PROJECT_DIR$/Concept/Closure.php" />
         <option value="$PROJECT_DIR$/Concept/removeCookie.php" />
         <option value="$PROJECT_DIR$/Concept/setCookie.php" />
+        <option value="$PROJECT_DIR$/Concept/Closure.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="478" />
-    <option name="y" value="57" />
+    <option name="y" value="52" />
     <option name="width" value="1287" />
     <option name="height" value="1176" />
   </component>
@@ -276,7 +272,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="478" y="57" width="1287" height="1176" extended-state="0" />
+    <frame x="478" y="52" width="1287" height="1176" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -284,7 +280,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31164658" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19598393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -491,37 +487,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/sort_heap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="816">
-          <folding />
-        </state>
+        <state line="6" column="19" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/APIs/yelp/OAuth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="15249">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="15249" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oauth/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1021">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1021" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/APIs/yelp/sample.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="2" selection-start="3178" selection-end="3178" vertical-scroll-proportion="0.0" vertical-offset="1634" max-vertical-offset="2652">
-          <folding />
-        </state>
+        <state line="101" column="2" selection-start="3178" selection-end="3178" vertical-scroll-proportion="0.0" vertical-offset="1634" max-vertical-offset="2652" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framwork/Laravel/first/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="612">
-          <folding />
-        </state>
+        <state line="30" column="0" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="612" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framwork/Laravel/first/app/controllers/HomeController.php">
@@ -554,7 +540,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/framwork/YII/config/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="119" selection-end="119" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="255">
+        <state line="5" column="13" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
@@ -568,35 +554,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
+        <state line="6" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="312" selection-end="312" vertical-scroll-proportion="0.30753767" vertical-offset="0" max-vertical-offset="995">
-          <folding />
-        </state>
+        <state line="23" column="0" selection-start="312" selection-end="312" vertical-scroll-proportion="0.30753767" vertical-offset="0" max-vertical-offset="995" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="47" selection-end="47" vertical-scroll-proportion="0.085427135" vertical-offset="0" max-vertical-offset="995">
-          <folding />
-        </state>
+        <state line="5" column="18" selection-start="47" selection-end="47" vertical-scroll-proportion="0.085427135" vertical-offset="0" max-vertical-offset="995" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Concept/removeCookie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="152" selection-end="171" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="442">
+        <state line="12" column="23" selection-start="152" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Concept/setCookie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="476">
+        <state line="13" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="476">
           <folding>
             <marker date="1409345224418" expanded="true" signature="26:203" placeholder="..." />
           </folding>
@@ -605,7 +587,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Concept/Closure.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.34170854" vertical-offset="0" max-vertical-offset="995">
+        <state line="9" column="119" selection-start="339" selection-end="339" vertical-scroll-proportion="0.15580449" vertical-offset="0" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>

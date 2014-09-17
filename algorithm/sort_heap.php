@@ -40,4 +40,9 @@ function heap_sort(&$array) {
 $array = array(9,8,7,6,5,4,3,2,1,0,10,1000,0);
 heap_sort($array);
 print_r($array);
+
+echo '<br /><br /><br /> ========== source file ================= <br />';
+echo highlight_file(__FILE__, true);
+
 ?>
+

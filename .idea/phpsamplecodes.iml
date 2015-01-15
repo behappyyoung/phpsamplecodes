@@ -7,10 +7,10 @@
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
-          <root url="phar://$MODULE_DIR$/framwork/Laravel/laravel.phar" />
+          <root url="phar://$MODULE_DIR$/Framworks/Laravel/laravel.phar" />
         </CLASSES>
         <SOURCES>
-          <root url="phar://$MODULE_DIR$/framwork/Laravel/laravel.phar" />
+          <root url="phar://$MODULE_DIR$/Framworks/Laravel/laravel.phar" />
         </SOURCES>
       </library>
     </orderEntry>

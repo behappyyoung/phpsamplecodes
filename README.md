@@ -7,4 +7,4 @@ Free to copy and use
 
 URL of usage examples.
 
-http://dev.ypark.org/PHP
+http://php.ypark.org/

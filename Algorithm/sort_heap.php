@@ -19,7 +19,7 @@ function build_heap(&$array, $i, $t){
     $array[$i] = $tmp_var;
 }
 
-function heap_sort(&$array) {
+function heap_sort($array) {
     //This will heapify the array
     $init = (int)floor((count($array) - 1) / 2);
     for($i=$init; $i >= 0; $i--){
@@ -34,12 +34,13 @@ function heap_sort(&$array) {
         $array [$i] = $tmp_var;
         build_heap($array, 0, $i - 1);
     }
+    return $array;
 }
 
 // Demo
 $array = array(9,8,7,6,5,4,3,2,1,0,10,1000,0);
-heap_sort($array);
-print_r($array);
+$rearray = heap_sort($array);
+print_r($rearray);
 
 echo '<br /><br /><br /> ========== source file ================= <br />';
 echo highlight_file(__FILE__, true);

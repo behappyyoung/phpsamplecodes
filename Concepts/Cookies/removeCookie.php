@@ -8,7 +8,7 @@ setcookie("test", "", time()-3600, '/');
     <a href="index.php"> show Cookie </a>
     <br/>
     <script>
-        document.write(document.cookie);
+        console.log(document.cookie);
     </script>
 <?php
 

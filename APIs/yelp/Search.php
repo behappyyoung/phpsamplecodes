@@ -118,19 +118,27 @@ function get_business($business_id) {
 function query_api($term, $location) {
 
     $response = json_decode(search($term, $location));
-
     $business_id = $response->businesses[0]->id;
+    $business_name = $response->businesses[0]->name;
 
     print sprintf(
-        "%d businesses found, querying business info for the top result \"%s\"\n\n",
+        "%d businesses found, querying business info with term : \"%s\", location : \"%s\" for the top result \"%s\"\n\n",
         count($response->businesses),
-        $business_id
+        $term,
+        $location,
+        $business_name
     );
+    //echo '<pre>';    print_r($response); echo '</pre>';
+    $names = '<br />  search result : <br />';
+    for($i=0; $i<count($response->businesses); $i++){
+        $names .= $response->businesses[$i]->name.'<br />';
+    }
 
+    echo $names;
     $response = get_business($business_id);
 
-    print sprintf("Result for business \"%s\" found:\n", $business_id);
-    print "$response\n";
+    print sprintf('<br />Result for business "%s" found:', $business_name);
+    //print "$response\n";
 
     echo '<pre>';    print_r(json_decode($response, true)); echo '</pre>';
 }
@@ -138,21 +146,17 @@ function query_api($term, $location) {
 /**
  * User input is handled here
  */
-//$term = filter_var($_REQUEST['term'], FILTER_SANITIZE_STRING);
-//$term = ($term) ? $term : '*';
-//$location = filter_var($_REQUEST['location'], FILTER_SANITIZE_STRING);
-//$location = ($location) ? $location : '*';
-
-$longopts  = array(
-    "term::",
-    "location::",
-);
-
-$options = getopt("", $longopts);
-
-$term = $options['term'] ?: '';
-$location = $options['location'] ?: '';
-
-error_log( 'term'.$term.$location);
+$term = isset($_REQUEST['term'])? filter_var($_REQUEST['term'], FILTER_SANITIZE_STRING) : 'food';
+$term = ($term) ? $term : 'food';
+$location = isset($_REQUEST['location'])? filter_var($_REQUEST['location'], FILTER_SANITIZE_STRING) : 'mountain view';
+$location = ($location) ? $location : 'mountain view';
+?>
+this is test search <br />
+<form>
+    term : <input name="term" value="<?php echo $term;?>"/>
+    location : <input name="location" value="<?php echo $location;?>"/>
+    <button type="submit"> Submit </button>
+</form>
+<?php
 query_api($term, $location);
 ?>

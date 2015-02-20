@@ -8,7 +8,7 @@ session_start();
 include_once('Nest.php');
 
 if(isset($_SESSION['access_token'])){
-    header('Location: https://php.ypark.org/APIs/Nest/Devices');
+    header('Location: https://php.ypark.org/APIs/Nest/Devices.php');
 }else if(isset($_REQUEST['code'])){
     $nest = new Nest();
     $result = $nest->getAccessToken($_REQUEST['code']);

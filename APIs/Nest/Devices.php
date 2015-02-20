@@ -12,7 +12,7 @@ if(isset($_SESSION['access_token'])) {
     $nest = new Nest();
     $result = $nest->showDevices($access_token);
     setcookie('nest_token', $access_token, time()+3600, '/');
-    echo '<a href="interact" > See Interaction </a>';
+    echo '<a href="interact.php" > See Interaction </a>';
     echo '<pre>';
     print_r($result);
     echo '</pre>';

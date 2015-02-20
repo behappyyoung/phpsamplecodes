@@ -21,5 +21,5 @@ if(isset($_SESSION['access_token'])){
         echo '<a href="https://php.ypark.org/APIs/Nest/" > Try Again </a>';
     }
 }else{
-    header('Location: https://home.nest.com/login/oauth2?client_id=e0101285-4b16-4ef8-988f-3adc4d7de30f&state=CA');
+    header('Location: https://home.nest.com/login/oauth2?client_id=f497bb7d-8d4d-4760-8d68-58ba9f9ceb1d&state=CA');
 }

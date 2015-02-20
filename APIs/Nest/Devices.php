@@ -17,7 +17,7 @@ if(isset($_SESSION['access_token'])) {
     print_r($result);
     echo '</pre>';
 }else{
-    header('Location: https://partnerserver.hondasvl.com/Services/Nest/');
+    header('Location: https://php.ypark.org/APIs/Nest/');
 }
 ?>
 

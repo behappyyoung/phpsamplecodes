@@ -8,7 +8,7 @@
 define('DS', DIRECTORY_SEPARATOR);
 class Nest{
 
-    const CLIENT_ID = '497bb7d-8d4d-4760-8d68-58ba9f9ceb1d';   // client id for young test
+    const CLIENT_ID = 'f497bb7d-8d4d-4760-8d68-58ba9f9ceb1d';   // client id for young test
     const CLIENT_SECRET = 'JZuTwjm8A9Nq3qvTNZFzL96mu';          // client secret for young test
     static  $error_root;
 

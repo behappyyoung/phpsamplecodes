@@ -1,0 +1,213 @@
+body {
+       background-image: url('images/whitenoise-1000x2000.png');
+   }
+
+.thermostats {
+    left: 200px;
+    position: absolute;
+}
+.thermostat {
+    margin-top: 50px;
+    left: 0;
+    background-color: #cfcfcf;
+    height: 300px;
+    width: 440px;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 3px;
+    font-family: Helvetica, sans-serif;
+    color: #6c6c6c;
+    position: relative;
+}
+.smokealarms {
+    left: 700px;
+    position: absolute;
+}
+
+.smokealarm {
+    margin-top: 50px;
+    left: 0;
+    height: 200px;
+    width: 300px;
+    border-radius: 100px;
+    border-style: outset;
+    border-width: 3px;
+    font-family: Helvetica, sans-serif;
+    color: #6c6c6c;
+    position: relative;
+}
+
+.newthermostat {
+    left: 0;
+    position: relative;
+    background-color: #cfcfcf;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 3px;
+    font-family: Helvetica, sans-serif;
+    color: #6c6c6c;
+}
+.buttons {
+    float: right;
+}
+
+button {
+    right: 40px;
+    height: 35px;
+    width: 35px;
+    outline: none;
+}
+
+#up-button {
+    top: 40px;
+}
+
+#down-button {
+    top: 90px;
+}
+
+
+#heating-up-button {
+    top: 40px;
+}
+
+#heating-down-button {
+    top: 90px;
+}
+
+#cooling-up-button {
+    top: 40px;
+}
+
+#cooling-down-button {
+    top: 90px;
+}
+
+.door, #door {
+    border-top: 1px solid #9a9a9a;
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    left: 0;
+}
+
+.device-name, #device-name {
+    position: absolute;
+    text-align: right;
+    font-style: italic;
+    color:#000000;
+    font-weight: bold;
+}
+
+.screen {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 90px;
+    width: 300px;
+    background-color: #a3c54e;
+    border-radius: 10px;
+    border-style: inset;
+    border-width: 1px;
+    padding: 10px;
+    padding-left: 50px;
+    font-family: 'LCDBOLD';
+}
+
+
+.coscreen {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    height: 70px;
+    width: 80px;
+    border-radius: 50px;
+    border-style: inset;
+    border-width: 1px;
+    padding: 10px;
+    padding-left: 30px;
+    color:black;
+}
+
+.smokescreen{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    height: 70px;
+    width: 80px;
+    border-radius: 50px;
+    border-style: inset;
+    border-width: 1px;
+    padding: 10px;
+    padding-left: 30px;
+    color:black;
+}
+
+.batteryscreen{
+    position: absolute;
+    top: 220px;
+    left: 70px;
+    height: 70px;
+    width: 80px;
+    border-radius: 50px;
+    border-style: inset;
+    border-width: 1px;
+    padding: 10px;
+    padding-left: 30px;
+    color:black;
+}
+
+.okd{
+    background-color: transparent;
+}
+.warning{
+    background-color: #ffff00;
+}
+
+.target_temperature, #target-temperature {
+    font-size: 50pt;
+}
+
+#target-temperature .away {
+    display: block;
+}
+
+#target-temperature.home .away {
+    display: none;
+}
+
+#target-temperature .home,
+#target-temperature .home {
+    display: none;
+}
+
+#target-temperature.home .home {
+    display: inline;
+}
+
+.hvac-mode {
+    font-size: 10pt;
+}
+
+.ambient_temperature, #ambient-temperature {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 70px;
+    font-size: 20pt;
+}
+
+#ambient-temperature .label {
+    position: absolute;
+    top: 35px;
+    font-size: 10pt;
+    display: block;
+}
+.manual{
+    position: relative;
+    top: -300px;
+    left: 350px;
+    width: 200px;
+}

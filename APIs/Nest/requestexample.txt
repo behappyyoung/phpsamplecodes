@@ -1,0 +1,33 @@
+get access_token
+
+curl -X POST "https://api.home.nest.com/oauth2/access_token?code=CEVFE9JJ&client_id=e0101285-4b16-4ef8-988f-3adc4d7de30f&client_secret=zY5TxdeabgR74qOwi0RXbM7LM&grant_type=authorization_code"
+
+curl -X POST "https://api.home.nest.com/oauth2/access_token?code=4WGUX5PSJTS9V724&client_id=e0101285-4b16-4ef8-988f-3adc4d7de30f&client_secret=zY5TxdeabgR74qOwi0RXbM7LM&grant_type=authorization_code"
+
+ex)
+{"access_token":"c.8cTYR0qD5ZA9VyQu1Cy4QRdNxRirchQ16uEwlocn8kpN6mRigZPGcjJYoMQUr62xDmfISZf23nigqavMAcEBtiX44Hh5JAYdtywyTeL4gztGHX26smH79f7yR1IQB848lZWeev1UzZNzhUEY","expires_in":315360000}
+
+{"access_token":"c.6xn5uxZ6RD9vz81zsdQvphG2JqDGOckeughw78x7C94IXZYPI6mhQQ8pG9C2hjgWww5T5YKKZji9KGvySOVQ5JeClXRz5s0fdUgOszDWfjcrBfBzFFFofP2KXge6fRYimUVBa0com2FgwaaB","expires_in":315360000}
+
+read all structure and devices
+
+curl -L -X GET -H "Accept: application/json" "https://developer-api.nest.com/?auth=c.6xn5uxZ6RD9vz81zsdQvphG2JqDGOckeughw78x7C94IXZYPI6mhQQ8pG9C2hjgWww5T5YKKZji9KGvySOVQ5JeClXRz5s0fdUgOszDWfjcrBfBzFFFofP2KXge6fRYimUVBa0com2FgwaaB"
+
+curl -L -X GET -H "Accept: application/json" "https://developer-api.nest.com/?auth=c.SX4fleKfmHdNorQBIiDmaMMCUOIwy6ouGLw2JT9irX8qFnyn8C3f7Sc6D8u04enFANYwiWJB9B8rh9EsgIP4t4u3H3nok2Wr1fl2l68orfXz14lsvNMU13iXE0cPNSRL7n5pYDMiTcXJ7JDI"
+
+
+read structure
+curl -L -X GET -H "Accept: application/json" "https://developer-api.nest.com/structures?auth=c.6xn5uxZ6RD9vz81zsdQvphG2JqDGOckeughw78x7C94IXZYPI6mhQQ8pG9C2hjgWww5T5YKKZji9KGvySOVQ5JeClXRz5s0fdUgOszDWfjcrBfBzFFFofP2KXge6fRYimUVBa0com2FgwaaB"
+
+ex)
+ame":"Home","country_code":"US","postal_code":"94043","time_zone":"America/Los_Angeles","away":"home","thermostats":["Hl1eU6V1RvRb6zTdwOJAY0Ge2IfB2w-A
+
+read device
+curl -L -X GET -H "Accept: application/json" "https://developer-api.nest.com/devices/thermostats/Hl1eU6V1RvRb6zTdwOJAY0Ge2IfB2w-A?auth=c.6xn5uxZ6RD9vz81zsdQvphG2JqDGOckeughw78x7C94IXZYPI6mhQQ8pG9C2hjgWww5T5YKKZji9KGvySOVQ5JeClXRz5s0fdUgOszDWfjcrBfBzFFFofP2KXge6fRYimUVBa0com2FgwaaB”
+
+
+
+rest streaming
+curl -L -X GET -H "Accept: application/json" -H "Accept: text/event-stream" "https://developer-api.nest.com/?auth=c.8cTYR0qD5ZA9VyQu1Cy4QRdNxRirchQ16uEwlocn8kpN6mRigZPGcjJYoMQUr62xDmfISZf23nigqavMAcEBtiX44Hh5JAYdtywyTeL4gztGHX26smH79f7yR1IQB848lZWeev1UzZNzhUEY"
+
+
